@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import MenuItem from "../menu-item/menu-item.component";
 import "./directory.styles.scss";
 
-export default class Directory extends Component {
+class Directory extends Component {
   constructor() {
     super();
     this.state = {
@@ -54,3 +54,4 @@ export default class Directory extends Component {
     );
   }
 }
+export default Directory;
